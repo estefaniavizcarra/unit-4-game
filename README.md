@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-=======
+
 # unit-4-game
 
-
-
->>>>>>> 66d43900e853a12a30186f7b7857d8bb3cb1fa40
 
 CRYSTAL COLLECTOR!
 Hello! This is the fourth project of the Coding Bootcamp Tec of Mty Campus Santa Fe, in which I am using jquery, JavaScript, CSS, HTML and CSS.
