@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CRYSTALS COLLECTOR</title>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" >
+    <!-- google fotns -->
+    <link href="https://fonts.googleapis.com/css?family=Amita|Permanent+Marker|Quintessential" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- jquery -->
+
+</head>
+<body>
+<header class="container">
+        <ul class="shadow-lg nav justify-content-center rounded-pil">
+          <!-- target points -->
+                <li class="nav-item">
+                  <p class="nav-link disabled"  tabindex="-1" aria-disabled="true" ><b>Target points:</b></p>
+                </li>
+                <li class="nav-item">
+                  <p class="nav-link disabled" tabindex="-1" aria-disabled="true"  id="target"></p>
+                </li>
+                <br>
+                <!-- cumulative total -->
+                <li class="nav-item">
+                  <p class="nav-link disabled"  tabindex="-1" aria-disabled="true" ><b> Cumulative total: </b></p>
+                </li>
+                <li class="nav-item">
+                    <p class="nav-link disabled" tabindex="-1" aria-disabled="true"  id="total"></p>
+                  </li>
+                <!-- wins -->
+                <li class="nav-item">
+                  <p class="nav-link disabled"  tabindex="-1" aria-disabled="true"> <b>Wins:</b></p>
+                </li>
+                <li class="nav-item">
+                  <p class="nav-link disabled"  tabindex="-1" aria-disabled="true" id="wins">0</p>
+                </li>
+                <!-- losses -->
+                <li class="nav-item">
+                  <p class="nav-link disabled"  tabindex="-1" aria-disabled="true"> <b>Losses:</b></p>
+                </li>
+                <li class="nav-item">
+                  <p class="nav-link disabled"  tabindex="-1" aria-disabled="true" id="loses">0</p>
+                </li>
+              </ul>
+            </header>
+
+
+
+              <section class="container">
+                  <div class="trans text-center ">
+
+                <div class="gems">
+                  <img src="assets/images/img1.png" class=gemImage id="cristal1" alt="Blue Gem">
+                  <img src="assets/images/img2.png" class=gemImage id="cristal2" alt="Green Gem">
+                  <img src="assets/images/img3" class=gemImage id= "cristal3" alt="Red Gem">
+                  <img src="assets/images/img4" class=gemImage id= "cristal4" alt="Yellow Gem">
+                </div>
+                  </div>
+
+<!-- <form>
+
+        <input type="image" class="boton cristal1" src="https://vignette.wikia.nocookie.net/es.finalfantasy/images/e/eb/CristalGeneral.jpg/revision/latest?cb=20080730170208"></input>  
+        <input type="image" class="boton cristal2" src="https://cdn4.iconfinder.com/data/icons/diamond-stroke-vol-1/100/Diamond_Radiant_Ruby_Stone_jewel_crystal_heart-512.png"></input>  
+        <input type="image" class="boton cristal3" src="https://image.flaticon.com/icons/png/512/128/128185.png"></input>  
+        <input type="image"  class="boton cristal4" src="https://orig03.deviantart.net/5ab0/f/2013/144/0/f/round_gem_base_2_by_iggwilv-d66dfew.png"></input>  
+</form> -->
+<!-- boton jugar de nuevo -->
+<div class="trans text-center ">
+    <button type="button" class="btn btn-secondary btn-lg "id="btnr">Reset!</button>
+</div>
+</div>
+      
+<!-- titulo CRYSTAL COLLECTOR -->
+<div class="shadow-lg jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4"> Crystals Collector</h1> <hr>
+          <p class="lead">Instrucciones</p>
+          <p clas="lead instrucciones">Try to match the target number by choosing any of the four crystals that have been assigned with a random number! Find out what each of these numbers is at the start of each game. You win if the accumulative number equals the target one, you lose if you exceed the target number.</p>
+        </div>
+      </div>
+
+
+        
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>

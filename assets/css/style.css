@@ -1,0 +1,51 @@
+section{
+    background-color:#faedee;
+}
+header{
+    margin: 1.8em;
+    font-size: 18px!important;
+    word-spacing: .5em!important;
+}
+.gemImage{
+height: 180px;
+width: 180px;
+padding: 1em;
+margin: 2em;
+}
+h1{
+    text-align: center;
+    color:grey!important;
+    font-size: 90px!important;
+    font-family: 'Amita', cursive;
+    margin:1em;
+}
+
+
+.jumbotron{
+background-color: white!important;
+ /* border: PowderBlue 5px double!important; */
+ margin:3em!important;
+
+}
+
+    hr{
+        border: 1px solid grey!important;
+
+    }
+
+p{
+    color: gray!important;
+}
+
+.gemImage{
+    text-align: center;
+
+}
+
+p.instrucciones{
+    text-align: center;
+}
+/* 
+font-family: 'Amita', cursive;
+font-family: 'Quintessential', cursive;
+font-family: 'Permanent Marker', cursive; */
